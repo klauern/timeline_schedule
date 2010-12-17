@@ -1,0 +1,15 @@
+#my-timeline
+{
+  background-color:#b0c4de;
+}
+body
+{
+  background-color:#b0c4de;
+}
+
+.timeline-default {
+font-family: Consolas,
+             Monaco,
+             "Nimbus Mono L",
+             monospace;
+           }
