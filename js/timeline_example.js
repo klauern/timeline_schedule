@@ -21,7 +21,7 @@ function onLoad() {
   bandInfos[1].highlight = true;
 
   tl = Timeline.create(document.getElementById("my-timeline"), bandInfos);
-  Timeline.loadXML("/html/data.xml", function(xml, url) { eventSource.loadXML(xml,url); });
+  Timeline.loadXML("/data.xml", function(xml, url) { eventSource.loadXML(xml,url); });
 }
 
 var resizeTimerId = null;
