@@ -1,15 +1,15 @@
-#my-timeline
-{
-  background-color:#b0c4de;
-}
-body
-{
-  background-color:#b0c4de;
-}
 
-.timeline-default {
-font-family: Consolas,
-             Monaco,
-             "Nimbus Mono L",
-             monospace;
-           }
+.timeline-date-label {
+	font-family: Consolas,
+				   Monaco,
+				   "Nimbus Mono L",
+				   monospace;
+ }
+
+.timeline-event-label,.timeline-event-bubble-body , .timeline-event-bubble-title, .timeline-event-bubble-time {
+font-family: Tahoma,
+             Helvetica,
+             "Nimbus Sans L",
+             sans-serif;
+font-size: 80%;
+ }
